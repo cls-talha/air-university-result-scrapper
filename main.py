@@ -63,5 +63,5 @@ for i, roll in enumerate(roll_numbers):
     
 
 dataframe = pd.DataFrame(data_list)
-dataframe.to_csv(os.path.join("scrapped_result", csv_name.split(".")[0]+"result.csv"), index=False)
+dataframe.to_csv(os.path.join("scrapped_result", csv_name.split(".")[0]+"-result.csv"), index=False)
 
